@@ -6,10 +6,10 @@ import { AppComponent } from './app.component';
 import { ProductListComponent } from './products/product-list.component';
 import { StarComponent } from './shared/star.component';
 import { ConvertToSpacesPipe } from './shared/convert-to-spaces.pipe';
-import { ProductService } from "./products/product.service";
+import { ProductService } from './products/product.service';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductDetailComponent } from './products/product-detail.component';
-import { WelcomeComponent } from "./home/welcome.component";
+import { WelcomeComponent } from './home/welcome.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
